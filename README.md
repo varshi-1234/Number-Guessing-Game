@@ -13,13 +13,17 @@ Welcome to the Number Guessing Game! This is a simple command-line game where yo
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/varshi-1234/Number-Guessing-Game.git
-
+   git clone https://github.com/varshi-1234/Number-Guessing-Game-Python.git
+   cd number-guessing-game-python
+   
+2. **Run the Game**
+   
+   python number_guessing_game.py
 
 ## How to Play
 --------------
 
-1. Run the game by executing the JavaScript file.
+1. Run the game using the command above.
 2. You will be presented with a welcome message and a prompt to select the difficulty level.
 3. Choose the difficulty level by entering 1 for Easy, 2 for Medium, or 3 for Hard.
 4. Once you've selected the difficulty level, you will be prompted to enter your guess.
@@ -37,32 +41,29 @@ Welcome to the Number Guessing Game! This is a simple command-line game where yo
 ## Technical Details
 --------------------
 
-This game is built using Node.js and the `readline` module for handling user input. The game logic is implemented in JavaScript, and the code is organized into separate functions for each difficulty level and for handling user input.
+This game is written in Python using basic standard libraries like random and input() for command-line interaction. The game logic is modular and easy to understand, making it beginner-friendly.
 
 ### Requirements
 
-* Node.js (version 14 or higher)
-* `readline` module (built-in with Node.js)
+Python 3.x
 
 ### Code Structure
 
-The code is organized into the following files:
+The code is contained in a single Python file:
 
-* `index.js`: The main entry point of the game.
-* `easy`, `medium`, `hard`: Separate functions for each difficulty level.
-* `difficultyLevel`: A function for handling user input and selecting the difficulty level.
+number_guessing_game.py: Contains all the game logic, including difficulty selection, input handling, and result display.
 
 
 ## Contributing
 --------------
 
-If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your improvements.
 
 ### Contributing Guidelines
 
-* Please follow the existing code style and structure.
-* Make sure to test your changes before submitting a pull request.
-* Keep your changes concise and focused on a single issue or feature.
+*Follow the existing code style and keep the code clean.
+*Test your changes before submitting.
+*Keep contributions focused and well-documented.
 
 ## Authors
 ---------
@@ -72,6 +73,6 @@ If you'd like to contribute to this project, please fork the repository and subm
 ## Acknowledgments
 ---------------
 
-* Thanks to the Node.js community for providing the `readline` module.
-* Thanks to the GitHub community for providing a platform for open-source projects.
-* Thanks to Roadmap.sh for providing this project idea.
+*Thanks to the Python community for its simplicity and power.
+*Thanks to Roadmap.sh for providing this fun project idea.
+*Thanks to all open-source contributors who inspire collaboration and creativity.
