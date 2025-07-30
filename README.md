@@ -62,7 +62,9 @@ If you'd like to contribute to this project, feel free to fork the repository an
 ### Contributing Guidelines
 
 *Follow the existing code style and keep the code clean.
+
 *Test your changes before submitting.
+
 *Keep contributions focused and well-documented.
 
 ## Authors
@@ -74,5 +76,7 @@ If you'd like to contribute to this project, feel free to fork the repository an
 ---------------
 
 *Thanks to the Python community for its simplicity and power.
+
 *Thanks to Roadmap.sh for providing this fun project idea.
+
 *Thanks to all open-source contributors who inspire collaboration and creativity.
